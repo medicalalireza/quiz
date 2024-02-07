@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import "./Form.css";
+import voiceActor from "./Newsletter.mp3";
 const Form = () => {
   const [data, setData] = useState([
     { id: 1, title: "nation", answer: 0 },
@@ -22,6 +23,10 @@ const Form = () => {
       method: "POST",
       body: JSON.stringify(objectSent),
     });
+    function play() {
+      new Audio(voiceActor).play();
+    }
+    play();
   };
   return (
     <form onSubmit={(event) => handlesubmit(event)}>
