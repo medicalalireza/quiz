@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Dirooz";
+    src: url('../assets/fonts/Dirooz-FD.eot');
+}
+
+body {
+    padding: 5px;
+    direction: rtl;
+    font-family: "Dirooz";
+}
+.question {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    background-color: rgb(242, 244, 245);
+}
+.question-title {
+
+}
+.form-label {
+    padding: 15px;
+}
+mark {
+    opacity: 90%;
+    background-color: #ffe735;
+}
+
+.table {
+    direction: ltr;
+}
+
+tr, th , td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.btn.submit {
+    border: 0;
+    outline: 0;
+    background-color: #2f6d40;
+    border-radius: 12px;
+    padding: 8px;
+    color: white;
+}
+
+.btn.submit:hover {
+    background-color: #37834b;
+}
+.question-last {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(242, 244, 245);
+}
