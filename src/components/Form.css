@@ -3,6 +3,12 @@
     src: url('../assets/fonts/Dirooz-FD.eot');
 }
 
+.toptitle {
+    margin-bottom: 1rem;
+    background-color: rgb(234, 44, 44);
+    color:#25b54c;
+    border-radius: 12px;
+}
 body {
     padding: 5px;
     direction: rtl;

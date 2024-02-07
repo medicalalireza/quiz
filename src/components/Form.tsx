@@ -31,6 +31,10 @@ const Form = () => {
   return (
     <form onSubmit={(event) => handlesubmit(event)}>
       <div className="mb-3">
+        <div className="toptitle">
+          چه بسا نور آگاهی را ببینند آنان که از قدرتِ بلند گو و صدای گوشی
+          استفاده کنند
+        </div>
         {/* Question 1 */}
         <div className="question">
           <div>
